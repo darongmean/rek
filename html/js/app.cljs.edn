@@ -1,2 +1,2 @@
-{:require  [darong.rek.app]
+{:require  [darong.rek.app test.rek.board]
  :init-fns [darong.rek.app/init]}

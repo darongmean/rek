@@ -6,6 +6,10 @@
    [adzerk/boot-cljs-repl "0.1.9" :scope "test"]
    [adzerk/boot-reload "0.2.4" :scope "test"]
    [pandeiro/boot-http "0.6.1" :scope "test"]
-   [reagent "0.5.0"]]
+   [org.clojure/clojure "1.6.0"]
+   [reagent "0.5.0"]
+   [org.clojure/test.check "0.7.0"]]
   :source-paths
-  ["src/clojure" "src/cljs"])
+  ["src/main/cljs" "src/test/cljs" "src/main/clojure"]
+  :test-paths
+  [])
